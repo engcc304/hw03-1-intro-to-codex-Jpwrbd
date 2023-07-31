@@ -4,9 +4,9 @@
 int main() {
     // Declarations
     int a = 10 ;
-    int b = 20, c = 30, d = 40 ;
+    int b = 20 , c = 30 , d = 40 ;
     // Output
-    printf( "This is %d + %d = %d " , a, b, a + b ) ;
+    printf( "This is %d + %d = %d " , a , b , a + b ) ;
     // Loop
     for ( int i = 0 ; i < d - 30 ; i++ ) {
         if ( i < 30 ) {
@@ -20,4 +20,4 @@ int main() {
 
     // Termination
     return 0 ;
-}// end main
+} // end main
