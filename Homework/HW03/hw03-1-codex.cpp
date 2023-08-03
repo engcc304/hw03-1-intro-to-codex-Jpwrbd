@@ -1,10 +1,9 @@
-//TODO: #8 Arrange this C coding into CODEX pattern.
 #include <stdio.h>
 
 void printNumbers(int a, int b);
 
-
 int main() {
+
     int a = 10;
     int b = 20, c = 30, d = 40;
 
@@ -18,7 +17,7 @@ int main() {
             }
         }
     }
-
+    
     printf("ok\n");
 
     return 0;
