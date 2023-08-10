@@ -1,29 +1,27 @@
 //TODO: #8 Arrange this C coding into CODEX pattern.
 #include <stdio.h>
 
-void printNumbers(int a, int b);
+void printNumbers(int a, int b) ;
 
 
 int main() {
-    int a = 10;
-    int b = 20, c = 30, d = 40;
+    int a = 10 ;
+    int b = 20, c = 30, d = 40 ;
 
-    printf("This is %d + %d = %d\n", a, b, a + b);
+    printf( "This is %d + %d = %d \n", a, b, a + b) ;
 
-    for (int i = 0; i < d - 30; i++) {
+    for (int i = 0 ; i < d - c ; i++) {
         if (i < 30) {
-            printf("Here");
+            printf( "Here" ) ;
             if (i == 8) {
-                printf("This is 8. ");
+                printf( "This is 8. " ) ;
             }
         }
     }
-
-    printf("ok\n");
-
+    printf( "ok\n" ) ;
     return 0;
 }
 
 void printNumbers(int a, int b) {
-    printf("%d and %d\n", a, b);
+    printf("%d and %d\n", a, b) ;
 }
